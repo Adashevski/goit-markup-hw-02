@@ -1,0 +1,140 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --brand_color: #2196f3;
+  --text: #757575;
+  --primary_background: #2f303a;
+  --button: #f5f4fa;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+.no_underline {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black);
+}
+.web {
+  color: var(--brand_color);
+}
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--black);
+}
+.contacts {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--text);
+}
+.nav_list,
+.list_first li,
+.list_second li,
+.list_team li,
+.menu_portfolio,
+.list_portfolio,
+.footer li {
+  list-style: none;
+}
+.contacts:hover,
+.contacts:focus,
+.link:hover,
+.link:focus {
+  color: var(--brand_color);
+}
+.top_section,
+.footer {
+  background-color: var(--primary_background);
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.top_section__text {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.top_section__button {
+  background-color: var(--brand_color);
+  color: var(--white);
+  cursor: pointer;
+  font-family: "Roboto";
+}
+.top_section__button-text {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.list_first__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.list_first__text {
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.list_second__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.list_team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.list_team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.list_team__profession {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.18;
+}
+.studio,
+.footer {
+  color: var(--white);
+}
+.button_portfolio:focus,
+.button_portfolio:hover {
+  background-color: var(--brand_color);
+  color: var(--white);
+}
+.button_portfolio {
+  background-color: var(--button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  border: none;
+  font-family: "Roboto";
+}
+/* .list_portfolio {
+} */
+.list_portfolio__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.list_portfolio__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text);
+}
